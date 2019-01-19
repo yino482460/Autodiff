@@ -1,6 +1,8 @@
-#include "Autodiff.h"
+/*
+*　作成日　2018/01/18 23:00
+*/
 
-/***  token.c　***/
+#include "Autodiff.h"
 // Token type　トークンの構造体
 #ifndef Autodiff_Token_Struct
 #define Autodiff_Token_Struct
@@ -21,5 +23,5 @@ enum {
 #endif
 
 
-// 文字列をトークンに分割する関数
+// 文字列をトークンに整理して出力する関数
 Vector *tokenize(char *p);
